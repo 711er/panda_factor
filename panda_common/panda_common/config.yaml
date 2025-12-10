@@ -37,3 +37,8 @@ LLM_BASE_URL: "https://api.deepseek.com/v1"
 LOG_LEVEL: "DEBUG"
 log_file: "logs/data_cleaner.log"
 log_rotation: "1 MB" 
+
+# Web Service
+web_service:
+  host: 127.0.0.1
+  port: 5000
